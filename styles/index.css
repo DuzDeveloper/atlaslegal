@@ -1,0 +1,254 @@
+* {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(204, 198, 192);
+    justify-content: center;
+}
+
+
+/*Navbar*/
+
+header {
+    background: #140c0c;
+    background: linear-gradient(182deg, rgba(20, 12, 12, 1) 15%, rgba(2, 13, 12, 1) 93%);    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    width: 100%;
+    margin: 0rem 0rem;
+}
+
+.navbar div {
+    margin: 1rem 1rem;
+}
+
+.navbar .logo {
+    height: 100%;
+}
+
+.nav-div ul {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-div li {
+    font-size: 2rem;
+    color: white;
+    margin: 1rem 2rem;
+}
+
+.nav-div a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact div {
+    margin: 1rem 1rem;
+}
+
+.contact-img {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-button {
+    height: 100%;
+    width: 100%;
+}
+
+.contact-button button:hover {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.contact-button button {
+    height: 100%;
+    width: 100%;
+    font-size: 1.8rem;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.contact-button button:hover {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Welcome */
+
+.welcome {
+    display: flex;
+    height: 70rem;
+    width: 100%;
+}
+
+.welcome div {
+    width: 50%;
+    height: 70rem;
+}
+
+.welcome-text {
+    align-content: center;
+    justify-content: center;
+    padding: 10rem;
+    line-height: 0.1;
+}
+
+.welcome-text h1 {
+    height: 10%;
+    font-size: 8rem;
+    color: rgb(18, 18, 145);
+    text-shadow: 2px 2px 0px #2c43c5, 5px 4px 0px rgba(0,0,0,0.15);
+    line-height: 0.1;
+}
+
+.welcome-text p {
+    font-size: 12rem;
+    color: white;
+}
+
+.abg-img {
+    height: 100%;
+    width: 100%;
+}
+
+.abg-img img {
+    height: 100%;
+}
+
+/* infobox */
+
+.infobox {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 0 12rem 0;
+}
+
+.box {
+    display: flex;
+    height: 12rem;
+    width: 30%rem;
+    background-color: black;
+    padding: 2rem;
+    margin: 0 1rem 8rem 0;
+    justify-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 24px;
+}
+
+.count-box {
+    flex: 1;
+    height: 100%;
+    width: 20%;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    justify-items: center;
+}
+
+.count-box h1 {
+    font-size: 5rem;
+    color: #2c43c5;
+}
+
+.text-box {
+    flex: 2;
+    height: 100%;
+    width: 80%;
+    line-height: 0.1;
+    justify-content: start;
+    justify-items: start;
+}
+
+.text-box h1 {
+    font-size: 5rem;
+    color: white;
+}
+
+.text-box p {
+    font-size: 2rem;
+    color: white;
+}
+
+/* Mision */
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    background-color: #140c0c;
+    height: auto;
+    width: 100%;
+    gap: 2.5rem;
+}
+
+.mission-text {
+    height: 20%;
+    font-size: 7rem;
+    color: white;
+}
+
+.mission-flexbox {
+    height: auto;
+    width: 100%;
+    font-size: 13rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin: 0 0 8rem 0;
+}
+
+.mission-flexbox-container {
+    height: 50rem;
+    width: 16%;
+    border: red solid 1px;
+}
+
+/* Services */
+
+.services {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    height: auto;
+    width: 100%;
+}
+
+.services-tittle {
+    width: 80%;
+    font-size: 5rem;
+    margin: 4rem 0 0 25rem;
+    justify-items: start;
+}
+
+.services-flexbox {
+    width: 75%;
+    display: flex;
+    margin: 4rem 0 0 10rem;
+    justify-items: start;
+    justify-content: space-around;
+}
+
+.services-flexbox-container {
+    display: flex;
+    gap: 1rem;
+}

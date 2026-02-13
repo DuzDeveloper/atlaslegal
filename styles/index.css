@@ -8,6 +8,7 @@ body {
     text-align: center;
     background-color: rgb(204, 198, 192);
     justify-content: center;
+    font-size: 12rem;
 }
 
 
@@ -107,7 +108,7 @@ header {
     align-content: center;
     justify-content: center;
     padding: 10rem;
-    line-height: 0.1;
+    line-height: 0.2S;
 }
 
 .welcome-text h1 {
@@ -231,6 +232,8 @@ header {
     background-color: aqua;
     height: auto;
     width: 100%;
+    justify-content: center;
+    justify-items: center;
 }
 
 .services-tittle {
@@ -241,14 +244,53 @@ header {
 }
 
 .services-flexbox {
-    width: 75%;
+    width: 100%;
     display: flex;
-    margin: 4rem 0 0 10rem;
-    justify-items: start;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .services-flexbox-container {
     display: flex;
+    width: 26%;
     gap: 1rem;
+    margin: 0px 0px 2rem 0px;
+}
+
+/*Team*/
+
+.team {
+    background-color: rgb(17, 16, 16); 
+    padding: 5%;
+}
+
+.team-tittle {
+    width: 100%;
+    font-size: 5rem;
+    color: white;
+}
+
+.team-members {
+    display: flex;
+}
+
+/*reviews*/
+
+.reviews {
+    display: flex;
+    background-color: #140c0c;
+    padding: 8%;
+    gap: 2rem;
+}
+
+/*footer*/
+
+footer {
+    background-color: #000000;
+    padding: 15rem;
+}
+
+footer img {
+    height: 10%;
+    width: 30%;
 }
